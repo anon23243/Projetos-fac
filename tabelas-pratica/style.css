@@ -1,0 +1,271 @@
+body{
+    overflow: hidden;
+padding-top: 5px;
+margin: 0;
+align-content: center;
+justify-content: center;
+height: 100vh;
+width: 100%;
+text-rendering: optimizeLegibility;
+
+}
+.ctn{
+height:100px;
+width:400px;
+border-style:inset;
+border:1.9px solid;
+border-color:#888585;
+background-color:#fff;
+font-family:Verdana;
+font-size:12px;
+text-align:center;
+position:relative;
+padding:0px;
+margin-left: 0px;
+display: inline-block;
+
+}
+p{
+line-height:1.2;
+font-family:Verdana;
+font-size:12px;
+}
+.d{
+font-family:Verdana;
+font-size:12px;
+line-height:1.2;
+}
+.bodyl{
+position: relative;
+text-align: center;
+align-content:center ;
+}
+.table{
+width:500px;
+font-family:Arial;
+font-size:12px;
+position:relative;
+display:inline-block;
+margin-top:150px;
+margin-bottom:150px;
+
+
+
+}
+.th{  
+
+background-color: #66C5E3;   
+width:10%;
+
+
+}
+.th2{
+width:15%;
+background-color:#66C5E3
+}
+.th3{
+width:20%;
+background-color:#66C5E3;
+text-align:start;
+
+
+}
+table, th, td {
+
+
+
+}
+.bodyth{
+
+width:100%;
+position: relative;
+text-align: center;
+align-content: center;
+
+}
+.th4{
+text-align:center;
+background-color:silver;
+}
+.th5 {
+text-align: start;
+background-color: #C7E7F3;
+color:#0D5188;
+
+
+}
+.th6 {
+text-align:center;
+background-color: #C7E7F3;
+}
+.th7 {
+text-align:center;
+background-color: #C7E7F3
+}
+.thmain{
+width:498px;
+height:50px;
+background-color:#0D5188;
+position:absolute;
+display:inline-block;
+margin-top:100px;
+margin-left:1px;
+color:white;
+text-align:center;
+font-size:12px;
+font-weight:bold;
+font-family:Verdana;
+line-height:1.1;
+
+}
+.tableball{
+     
+    margin-top:150px;
+  position:relative;
+  display:inline-table;
+width:615px;
+border-top:1px solid;
+border-bottom:1px solid;
+border-left: 1px solid;
+border-right:1px solid;
+border-color:#ddd;
+font-family:Arial;
+border-collapse: collapse;
+
+
+
+
+position:relative;
+
+   }
+   .tnum{
+ color:#003366;
+font-size:18px;
+font-weight:bold;
+text-align:center;
+width:35px;
+   }
+   .ttitle{
+   
+font-size:14px;
+color:#666666;
+text-align:left;
+   }
+   .tponts{
+font-size:14px;
+color:black;
+text-align:center;
+background-color:rgb(243, 243, 243);
+padding:1px;
+width:35px;
+   }
+   .tpointsm{
+    padding:1px;
+    width:35px;
+    font-size:14px;
+    text-align:center;
+    color:#666666;
+   }
+   .tpointsmbg{
+    background-color:rgb(243, 243, 243);
+    padding:1px;
+    width:35px;
+    font-size:14px;
+    text-align:center;
+    color:#666666;
+   }
+   th,tr,td:nth-child(even){border-top:1px solid;
+    border-color:#ddd;
+   }
+   .smallblock{ 
+    float:left;
+    left:10px;
+    
+    margin-top:8px;
+    position:relative;
+    width:10px;
+    height:10px;
+    background-color:#003366;
+    border-radius:2px;
+    font-family:Arial;
+font-size:10px;
+color:#8F8F8F;
+z-index:-1;
+white-space: pre;
+   }
+   .red{
+    float:left;
+    left:10px;
+    margin-left:120px;
+    margin-top:8px;
+    position:relative;
+    width:10px;
+    height:10px;
+    background-color:#1398BE;
+    border-radius:2px;
+    font-family:Arial;
+font-size:10px;
+color:#8F8F8F;
+z-index:-1;
+white-space: pre;
+   }
+   .red2{
+    float:left;
+    left:10px;
+    margin-left:120px;
+    margin-top:8px;
+    position:relative;
+    width:10px;
+    height:10px;
+    background-color:#DE9800;
+    border-radius:2px;
+    font-family:Arial;
+font-size:10px;
+color:#8F8F8F;
+z-index:-1;
+white-space: pre;
+
+ }
+ .red3{
+    float:left;
+    left:10px;
+    margin-left:110px;
+    margin-top:8px;
+    position:relative;
+    width:10px;
+    height:10px;
+    background-color:#C91B04;
+    border-radius:2px;
+    font-family:Arial;
+font-size:10px;
+color:#8F8F8F;
+z-index:-1;
+white-space: pre;
+
+ }
+   .cont {
+width:613px;
+height:45px;
+margin-left:50%;
+transform:translateX(-50%);
+border-bottom:1px solid;
+border-color:#ddd;
+border-left:1px solid;
+border-right:1px solid;
+border-right-color:#ddd;
+border-left-color:#ddd;
+font-family:Arial;
+font-size:10px;
+color:#8F8F8F;
+text-align:left;
+white-space: pre;
+position:fixed;
+   }
+   p{
+ white-space:pre;
+ font-size:10px;
+ font-family:Arial;
+ color:#555555;
+ 
+ 
+   }
