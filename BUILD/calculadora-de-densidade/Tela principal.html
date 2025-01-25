@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela Principal</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #1c8fdb;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            position: relative;
+            text-align: center; /* Centralizar conteúdo dentro do container */
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .header img {
+            max-width: 150px;
+        }
+        .profile-info {
+            position: relative;
+            text-align: center;
+            margin-bottom: 30px; /* Adicionado um espaçamento entre a foto e os exercícios */
+        }
+        .profile-info img {
+            width: 150px;
+            border-radius: 50%;
+            position: absolute;
+            top: -75px; /* Metade da altura da imagem */
+            left: calc(50% - 75px); /* Metade da largura da imagem */
+        }
+        .profile-info p {
+            margin: 10px 0;
+            font-size: 18px;
+        }
+        .exercise-container {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px; 
+        }
+        .exercise {
+            text-align: center;
+            cursor: pointer;
+            background-color: #46a5c5;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 5px;
+            display: inline-block;
+            transition: background-color 0.3s ease;
+            margin: 0 10px; 
+        }
+        .exercise:hover {
+            background-color: #2980b9;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="unisuam_logo.png" alt="Logo UNISUAM">
+            <h1>Informações do Aluno</h1>
+        </div>
+        <div class="profile-info">
+            <img src="perfil_aluno.jpg" alt="Foto do Aluno">
+            <p><strong>Nome:</strong> João da Silva</p>
+            <p><strong>Matrícula:</strong> 123456789</p>
+            <p><strong>Curso:</strong> Engenharia de Computação</p>
+        </div>
+        <div class="exercise-container">
+    <a class="exercise"  href="http://localhost/calculadora-de-densidade/ex1.html"> Exercício 1</a> 
+    <a class="exercise"  href="http://localhost/calculadora-de-densidade/ex2.html"> Exercício 2</a>     
+    <a class="exercise"  href="http://localhost/calculadora-de-densidade/ex3.html"> Exercício 3</a>
+        </div>
