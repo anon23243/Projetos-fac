@@ -126,7 +126,7 @@ a{
     
     ?>
 
-   <button style="width:500px; height:200px; border-radius:20px; padding-left:10px; margin-top:20px;margin-bottom:30px; border:solid 2px gray; background-color:white; text-align:left; padding-bottom:200px; padding-top:20px; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size:15px; text-align:center;">Nome: Gabriel Farias Vargas<br><br>Matricula: 23109452<br><br>Curso: Analise e desenvolvimento de sistemas </input>
+   <button style="width:500px; height:200px; border-radius:20px; padding-left:10px; margin-top:20px;margin-bottom:30px; border:solid 2px gray; background-color:white; text-align:left; padding-bottom:200px; padding-top:20px; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size:15px; text-align:center;">Nome: Gabriel Farias Vargas<br><br>Matricula: xxxxxx<br><br>Curso: Analise e desenvolvimento de sistemas </input>
    <br>
    <br>
    <!--<button type="submit" name="baton" style="border:solid 1px; border-radius:15px; width:150px; height:30px; transition: 0.3s; background-color:black; color:white; ">Send</button>-->
